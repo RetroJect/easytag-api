@@ -32,4 +32,11 @@ export default tseslint.config(
       "prettier/prettier": ["error", { endOfLine: "auto" }],
     },
   },
+  {
+    rules: {
+      semi: 'error',
+      'prefer-const': 'error',
+      quotes: ['error', 'single'],
+    }
+  }
 );
