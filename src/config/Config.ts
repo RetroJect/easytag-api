@@ -2,7 +2,7 @@ import { mkdir, readFile, writeFile } from 'fs/promises';
 import { dirname, join, resolve } from 'path';
 import sanitize from 'sanitize-filename';
 import { ReadConfigError, WriteConfigError } from './Errors';
-import log from '../logger';
+import log from '../utils/logger';
 
 const configDir = resolve(process.env.CONFIG_DIR ?? './config');
 

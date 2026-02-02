@@ -1,6 +1,6 @@
 import Config from './Config';
 import PluginConfig from './PluginConfig';
-import logger from '../logger';
+import logger from '../utils/logger';
 
 interface config {
   libraries: string[];

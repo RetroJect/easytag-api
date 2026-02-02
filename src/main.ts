@@ -1,6 +1,6 @@
 import { NestFactory } from '@nestjs/core';
 import { ConsoleLogger } from '@nestjs/common';
-import config from './utils/config/AppConfig';
+import config from './config/AppConfig';
 import logger from './utils/logger';
 
 import { AppModule } from './app.module';
